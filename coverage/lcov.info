@@ -1,5 +1,5 @@
 TN:
-SF:src/index.js
+SF:src\index.js
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -16,7 +16,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/actions/movies/movies.js
+SF:src\actions\movies\movies.js
 FN:3,(anonymous_0)
 FN:7,(anonymous_1)
 FN:11,(anonymous_2)
@@ -85,7 +85,7 @@ BRF:20
 BRH:0
 end_of_record
 TN:
-SF:src/routes/index.js
+SF:src\routes\index.js
 FNF:0
 FNH:0
 DA:7,1
@@ -99,7 +99,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/routes/health/health.js
+SF:src\routes\health\health.js
 FN:1,getHealth
 FNF:1
 FNH:1
@@ -111,7 +111,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/routes/movies/GETAllmovies.js
+SF:src\routes\movies\GETAllmovies.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:0
@@ -129,7 +129,7 @@ BRF:2
 BRH:0
 end_of_record
 TN:
-SF:src/routes/movies/GETMoviesByClassifier.js
+SF:src\routes\movies\GETMoviesByClassifier.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:0
@@ -147,7 +147,7 @@ BRF:2
 BRH:0
 end_of_record
 TN:
-SF:src/routes/movies/GETMoviesByName.js
+SF:src\routes\movies\GETMoviesByName.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:0
@@ -165,7 +165,7 @@ BRF:2
 BRH:0
 end_of_record
 TN:
-SF:src/utils/responseBuilder.js
+SF:src\utils\responseBuilder.js
 FN:1,(anonymous_0)
 FN:7,(anonymous_1)
 FNF:2
