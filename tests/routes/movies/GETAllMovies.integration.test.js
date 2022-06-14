@@ -15,8 +15,8 @@ describe('GET /api/movies', () =>{
     test('debe retornar un json vacio si no hya peliculas', async() => {
         sinon.stub(moviesActions, 'getAllMovies').returns(getMockMovies())
         const response = await request(app.callback()).get('/api/movies')
-        expect(response.status).toBe(200)
-        expect(response.body).toEqual([])
+        expect(response.status).toBe(500)
+        expect(response.body).toEqual({"message": "Hubo un error al mostrar toda la lista", "status": 500})
     })
 
     test('debe retornar un json con todas las peliculas si existen', async() => {

@@ -17,7 +17,7 @@ describe('GET /api/movies/:name', () => {
     test('Si no existen peliculas con el nombre devolvera una lista vacia', async () => {
         const response = await request(app.callback()).get('/api/movies/xdxd')
         expect(response.status).toBe(200)
-        expect(response.body).toEqual([])//("No se han encontrado coincidencias")
+        expect(response.body).toEqual({ status: 200, message: 'No se han encontrado coincidencias' })
     })
     
     test('Si existen coencidencias de nombre retorna lista de estas', async() => {

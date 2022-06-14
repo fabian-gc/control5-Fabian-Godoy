@@ -9,3 +9,8 @@ exports.getErrorResponse = (ctx) => {
     ctx.status = 500
     return ctx
 }
+exports.getOKEmptyResponse =(ctx => {
+    ctx.body = { status: 200, message: 'No se han encontrado coincidencias' }
+    ctx.status = 200
+    return ctx
+})
